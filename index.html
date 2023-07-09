@@ -8,7 +8,6 @@
       background-color: #f2f2f2;
     }
     table {
-      border-collapse: collapse;
       width: 100%;
       max-width: 600px;
       margin: 20px auto;
@@ -33,30 +32,10 @@
       text-align: center;
     }
     
-    /* Медиа-запрос для телефонных устройств */
-    @media only screen and (max-width: 480px) {
+    /* Стили для мобильных устройств */
+    @media only screen and (max-width: 600px) {
       table {
         display: none;
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-      li {
-        margin-bottom: 10px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-      }
-      li:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-      li:hover {
-        background-color: #e6e6e6;
-      }
-      li span {
-        font-size: 24px; /* Увеличение размера иконок */
       }
     }
   </style>
@@ -90,13 +69,5 @@
       <!-- Добавьте дополнительные строки с данными лидеров по мере необходимости -->
     </tbody>
   </table>
-  
-  <!-- Телефонная версия -->
-  <ul>
-    <li><span>1.</span> Всеволод Большое Яйцо - ≈∞</li>
-    <li><span>2.</span> Всеволод Младший (Александр) - Всеволод Большое Яйцо-1</li>
-    <li><span>3.</span> Мишка Гылятуля - 52665567525526787562627727225682985829582</li>
-    <!-- Добавьте дополнительные строки с данными лидеров по мере необходимости -->
-  </ul>
 </body>
 </html>
